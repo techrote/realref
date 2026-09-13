@@ -35,6 +35,15 @@ Pyronine Y is specifically remembered as the most strikingly vivid tracer in the
 
 This subjective observation is worth preserving as a screening priority, even though final tracer selection should be empirical with the actual 365/385/395/410/420/450 nm sources and the assembled monochrome camera.
 
+## Thermal imaging vessel observations
+
+Prior practical testing also established a strong vessel/material dependency for thermal imaging:
+
+- **Thermal camera + glass jar:** effectively useless for this purpose because reflections dominate/interfere with the desired observation.
+- **Thermal camera + box made from suitable plastics + halogen backlighting:** produced excellent silhouetting. This configuration may also contain quantitative information around object/fluid boundaries and thin regions, potentially supporting alpha/occupancy estimation and depth/thickness inference from edge/transmission response.
+
+The plastic type, wall thickness, geometry, halogen placement and thermal-camera settings were not recorded here and should be characterized before treating intensity as quantitative depth or alpha evidence. The key empirical observation is nevertheless strong: suitable plastic plus halogen backlighting is a promising thermal/transmission imaging geometry, whereas the glass-jar geometry is not.
+
 ## Why these observations matter
 
 The old experiments suggest two distinct optical modes may be available using materials already on hand:
@@ -43,6 +52,8 @@ The old experiments suggest two distinct optical modes may be available using ma
 2. **Localized powder/stock addition** for visually rich transport fields.
 
 The second mode may provide enough spatial texture to estimate plume motion without adding particles, but dissolution kinetics and intensity non-linearity make it a different measurement from PIV.
+
+The thermal observations add a third potentially useful measurement channel: a deliberately selected plastic vessel/enclosure with halogen backlighting may provide a high-contrast silhouette and possibly edge/thin-region transmission information suitable for calibrated alpha or depth/thickness estimation.
 
 ## Recovery tasks
 
@@ -54,6 +65,9 @@ When practical:
 - record the excitation source used, if remembered;
 - record whether the experiments used tap, distilled or other water;
 - record whether any pH modifier or other additive was present;
+- identify/test the plastic materials that work well with the thermal camera and halogen backlight;
+- characterize reflection/transmission behaviour for candidate vessel materials;
+- test whether edge/thin-region thermal intensity can be calibrated against known thickness/depth or occupancy/alpha;
 - add representative media to an appropriate dataset/media location without placing large raw videos into ordinary Git history.
 
 Until those details are recovered, these observations should remain explicitly qualitative rather than being used as calibration evidence.
