@@ -44,6 +44,7 @@ A uniformly fluorescent volume is excellent for geometry but usually poor for me
 - [`docs/SCOPE_AND_PRINCIPLES.md`](docs/SCOPE_AND_PRINCIPLES.md) — what `realref` is for and what it should not become.
 - [`docs/HARDWARE_AND_OPTICS.md`](docs/HARDWARE_AND_OPTICS.md) — current hardware, optical layout and bench-characterisation needs.
 - [`docs/TRACERS.md`](docs/TRACERS.md) — tracer inventory, selection strategy and empirical screening plan.
+- [`docs/PRIOR_OBSERVATIONS.md`](docs/PRIOR_OBSERVATIONS.md) — qualitative notes from the earlier fluorescent-dye “artsperiment” and media-recovery tasks.
 - [`docs/EXPERIMENTS.md`](docs/EXPERIMENTS.md) — first water benchmarks and why each exists.
 - [`docs/MEASUREMENT_AND_CV.md`](docs/MEASUREMENT_AND_CV.md) — extraction targets, metrics and computer-vision strategy.
 - [`docs/CONTROL_SYNC_AND_DATA.md`](docs/CONTROL_SYNC_AND_DATA.md) — servo control, timing, calibration and data layout.
